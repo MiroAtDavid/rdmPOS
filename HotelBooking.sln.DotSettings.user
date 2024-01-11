@@ -1,0 +1,50 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=13b527c1_002Da8e1_002D4141_002D9378_002D89a53d387936/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="HotelTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests.AddBookingSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.RoomTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3e14e719_002D9a23_002D42ed_002Dbb35_002D209eb2e500b5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GuestTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests.AddBookingSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests.CalculateBookingPrice_CorrectlyCalculatesPrice&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=758a8daa_002D674c_002D41e8_002Da67f_002D8854d2dc9f33/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GuestTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelContextTests.CreateDatabaseTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests.AddBookingSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=817b7188_002D5139_002D4568_002Da3ad_002D8626a1400305/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="AddHotelSuccessTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests.AddHotelSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.RoomTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=993d2de6_002D6bd5_002D4b5e_002D8216_002D4457d4a32faf/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateDatabaseTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelContextTests.CreateDatabaseTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTest.AddOrderSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTest.ConfirmOrderSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests.AddBookingSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.GuestTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests.CalculateBookingPriceTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.BookingTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests.AddHotelSuccessTest&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::A855AB84-56EC-41AE-B155-7D77938A1DBB::net8.0::HotelBooking.HotelBooking.Test.HotelTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
