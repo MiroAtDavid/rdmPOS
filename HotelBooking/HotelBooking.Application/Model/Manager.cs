@@ -15,11 +15,11 @@ public class Manager : Employee {
         Phone = phone;
         Role = "Manager";
     }
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning disable CS8618 
 
     // Constructor
     protected Manager() { }
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning disable CS8618 
     
     // Abstract Methods
     public override bool PerformDuties() {

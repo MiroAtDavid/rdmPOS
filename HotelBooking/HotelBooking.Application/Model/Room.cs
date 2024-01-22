@@ -7,8 +7,6 @@ public class Room {
     
     // Properties
     public int Id { get; private set; }
-    //public Booking Booking { get; set; }
-    //public int BookingId { get; private set; }
     public decimal Price { get; set; }
     public int HotelId { get; private set; }
     public virtual Hotel Hotel { get; private set; }
@@ -21,10 +19,10 @@ public class Room {
         Price = price;
         RoomType = "Standard";
     }
-#pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning disable CS8618 
     
     // Constructor 
     protected Room() { }
-#pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
+#pragma warning restore CS8618 
 
 }

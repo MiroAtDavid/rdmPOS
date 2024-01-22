@@ -180,3 +180,4 @@
 /home/hu/RiderProjects/HotelBooking/HotelBooking/bin/Debug/net8.0/runtimes/win7-x86/native/sqlite3.dll
 /home/hu/RiderProjects/HotelBooking/HotelBooking/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.Messages.dll
 /home/hu/RiderProjects/HotelBooking/HotelBooking/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Diagnostics.EventLog.dll
+/home/hu/RiderProjects/HotelBooking/HotelBooking/obj/Debug/net8.0/HotelBooking.sourcelink.json

@@ -7,7 +7,6 @@ namespace HotelBooking.HotelBooking.Application.Infrastructure;
 
 public class HotelContext : DbContext { 
     public HotelContext(DbContextOptions opt) : base(opt) { } 
-    
     public DbSet<Guest> Guests => Set<Guest>(); 
     public DbSet<Booking> Bookings => Set<Booking>(); 
     public DbSet<Room> Rooms => Set<Room>();
@@ -17,26 +16,27 @@ public class HotelContext : DbContext {
     public DbSet<Employee> Employees => Set<Employee>();
     public DbSet<Manager> Managers => Set<Manager>();
     public DbSet<Receptionist> Receptionists => Set<Receptionist>();
+    public DbSet<SpecialService> SpecialServices => Set<SpecialService>();
     protected override void OnModelCreating(ModelBuilder modelBuilder) {
         
         // Hotel
         modelBuilder.Entity<Hotel>().OwnsOne(h => h.Address);
         modelBuilder.Entity<Hotel>()
             .HasMany(h => h.HotelRooms)
-            .WithOne(h => h.Hotel)
-            .HasForeignKey(h => h.HotelId)
+            .WithOne(r => r.Hotel)
+            .HasForeignKey(r => r.HotelId)
             .IsRequired();
         
         modelBuilder.Entity<Hotel>()
             .HasMany(h => h.HotelEmployees)
-            .WithOne(h => h.Hotel)
-            .HasForeignKey(h => h.HotelId)
+            .WithOne(e => e.Hotel)
+            .HasForeignKey(e => e.HotelId)
             .IsRequired();
         
         modelBuilder.Entity<Hotel>()
             .HasMany(h => h.Bookings)
-            .WithOne(h => h.Hotel)
-            .HasForeignKey(h => h.HotelId)
+            .WithOne(b => b.Hotel)
+            .HasForeignKey(b => b.HotelId)
             .IsRequired();
         
         // Room
@@ -46,8 +46,8 @@ public class HotelContext : DbContext {
         modelBuilder.Entity<Guest>().OwnsOne(g => g.Address);
         modelBuilder.Entity<Guest>()
             .HasMany(g => g.Bookings)
-            .WithOne(g => g.Guest)
-            .HasForeignKey(g => g.GuestId)
+            .WithOne(b => b.Guest)
+            .HasForeignKey(b => b.GuestId)
             .IsRequired();
         
         // Employee
@@ -59,7 +59,9 @@ public class HotelContext : DbContext {
 
         // Receptionist
         modelBuilder.Entity<Receptionist>().OwnsOne(e => e.Address);
-        
+
+        modelBuilder.Entity<Deluxe>()
+            .HasMany(d => d.SpecialServices);
         // Booking
         /*modelBuilder.Entity<Booking>()
             .HasMany(b => b.Rooms)

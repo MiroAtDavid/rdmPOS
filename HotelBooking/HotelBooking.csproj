@@ -38,8 +38,10 @@
 
 
 
+
+
     <ItemGroup>
-      <Folder Include="HotelBooking.Application\" />
+      <None Include="obj\mermaid-diagram-2024-01-22-012359.svg" />
     </ItemGroup>
 
 

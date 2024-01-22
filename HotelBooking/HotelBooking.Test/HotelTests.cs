@@ -37,7 +37,7 @@ public class HotelTests : DatabaseTest {
         //_db.Rooms.Add(room);
         hotel.AddHotelRoom(room);
 
-        var roomDeluxe = new Deluxe(hotel: hotel, price: 200, specialService: 4);
+        var roomDeluxe = new Deluxe(hotel: hotel, price: 200);
         //_db.Deluxes.Add(roomDeluxe);
         hotel.AddHotelRoom(roomDeluxe);
 
@@ -51,7 +51,7 @@ public class HotelTests : DatabaseTest {
             new Address(Street: "street2", Zip: "Zip2", City: "City2"));
         _db.Guests.Add(guest);
         
-        var booking = new Booking(hotel, date: new DateTime(2022, 1, 1), guest, 5);
+        var booking = new Booking(hotel, date: new DateTime(2025, 1, 1), guest, 5);
         guest.AddBooking(booking);
         booking.AddBookingRoom(room);
         hotel.AddBooking(booking);
@@ -97,7 +97,7 @@ public class HotelTests : DatabaseTest {
         var hotel = _db.Hotels.Include(hotel => hotel.Bookings).First();
         var guest = new Guest(firstname: "fn", lastname: "ln",
             new Address(Street: "street2", Zip: "Zip2", City: "City2"));
-        var booking = new Booking(hotel, date: new DateTime(2024, 1, 1), guest, 5);
+        var booking = new Booking(hotel, date: new DateTime(2025, 1, 1), guest, 5);
         hotel.AddBooking(booking);
         var bookingConfirmation = hotel.CreateBookingConfirmation(booking);
         Assert.NotNull(bookingConfirmation);
