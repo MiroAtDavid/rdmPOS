@@ -43,6 +43,7 @@ public class HotelContext : DbContext {
         modelBuilder.Entity<Room>().HasDiscriminator(h => h.RoomType);
         
         // Guest
+        modelBuilder.Entity<Guest>().HasAlternateKey(guest => guest.Id);
         modelBuilder.Entity<Guest>().OwnsOne(g => g.Address);
         modelBuilder.Entity<Guest>()
             .HasMany(g => g.Bookings)
@@ -51,6 +52,7 @@ public class HotelContext : DbContext {
             .IsRequired();
         
         // Employee
+        modelBuilder.Entity<Employee>().HasAlternateKey(employee => employee.Id);
         modelBuilder.Entity<Employee>().OwnsOne(e => e.Address);
         modelBuilder.Entity<Employee>().HasDiscriminator(h => h.Role);
 
@@ -59,15 +61,12 @@ public class HotelContext : DbContext {
 
         // Receptionist
         modelBuilder.Entity<Receptionist>().OwnsOne(e => e.Address);
-
-        modelBuilder.Entity<Deluxe>()
-            .HasMany(d => d.SpecialServices);
+        modelBuilder.Entity<Deluxe>().HasMany(d => d.SpecialServices);
+        
         // Booking
-        /*modelBuilder.Entity<Booking>()
-            .HasMany(b => b.Rooms)
-            .WithOne(b => b.Booking)
-            .HasForeignKey(b => b.BookingId)
-            .IsRequired();*/
+        modelBuilder.Entity<Booking>().HasAlternateKey(booking => booking.Id);
+        modelBuilder.Entity<Booking>()
+            .HasMany(b => b.Rooms);
     }
 }
     

@@ -21,9 +21,9 @@ Deluxe o--|> SpecialService
 
     class Address {
         <<value object>>
-        Street: string
-        City: string
-        Zip: string
+        +Street: string
+        +City: string
+        +Zip: string
     }
 
     class Booking {
@@ -117,20 +117,20 @@ Deluxe o--|> SpecialService
     }
 
     class Suit {
-        Jacuzzi: bool
+        +Jacuzzi: bool
         +AddJacuzziPrice(): bool
 
     }
 
     class BookingConfirmation {
-        Booking: Booking
-        Confirmationcode: string
+        +Booking: Booking
+        +Confirmationcode: string
     }
 
 
     class SpecialService {
-        Name: string
-        Price: decimal
+        +Name: string
+        +Price: decimal
     }
 
 
